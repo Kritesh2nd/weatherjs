@@ -45,6 +45,7 @@ sbtn.addEventListener("click",(()=>{
 }))
 function fetchWeather(city){
   fetch(
+    // https://api.openweathermap.org/data/2.5/weather?q=Lalitpur&appid=e0834ddf9d2876ae4651c1dbe4bb4d16
     "https://api.openweathermap.org/data/2.5/weather?q="
     + city
     + "&appid="
